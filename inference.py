@@ -1,7 +1,7 @@
 from feast import FeatureStore
 import pandas as pd
 
-store = FeatureStore(repo_path="feature_repo")
+store = FeatureStore(repo_path="./feature_repo")
 
 
 online_features = store.get_online_features(

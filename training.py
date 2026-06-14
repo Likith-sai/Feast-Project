@@ -1,7 +1,7 @@
 from feast import FeatureStore
 import pandas as pd
 
-store = FeatureStore(repo_path="feature_repo")
+store = FeatureStore(repo_path="./feature_repo")
 
 entity_df = pd.DataFrame({
     "customerID": ["7590-VHVEG", "5575-GNVDE"],
