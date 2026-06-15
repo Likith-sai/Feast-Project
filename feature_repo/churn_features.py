@@ -34,7 +34,7 @@ churn_feature_view = FeatureView(
         Field(name="PaperlessBilling",dtype=String),
         Field(name="PaymentMethod",dtype=String),
         Field(name="MonthlyCharges",dtype=Float64),
-        Field(name="TotalCharges",dtype=String),
+        Field(name="TotalCharges",dtype=Float64),
         Field(name="Churn",dtype=String),
     ],
 )
